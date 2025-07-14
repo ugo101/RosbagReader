@@ -1,10 +1,8 @@
-The script to convert rosbags to csv files was taken from https://automaticaddison.com/record-and-play-back-data-using-ros-2-bag-ros-2-jazzy/
-
 # Instructions
 This Repo should be used for reading data from ros2bags. It provides two different ways of doing this:
 
 1. Read rosbag, convert to csv files which are easy to load into pandas dataframes (useful if dont want to always reload full rosbag in script multiple times)
- - this was a script taken from: https://automaticaddison.com/record-and-play-back-data-using-ros-2-bag-ros-2-jazzy/
+    - this was a script taken from: https://automaticaddison.com/record-and-play-back-data-using-ros-2-bag-ros-2-jazzy/
 
 2. Read rosbag, save full bag to a dictionary variable with following structure:
     - script written by GPT making use of the rosbag2py package
