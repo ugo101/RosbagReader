@@ -22,6 +22,8 @@ This Repo should be used for reading data from ros2bags. It provides two differe
 
 2. Import the 'read_rosbag_to_dict' function and specify bag path
 
-3. Function returns a data dictionary:
+3. Make sure to change storage_id if needed (default is mcap) !
+
+4. Function returns a data dictionary:
     - data['topic'] = [(timestampt1, msg1), (timestampt2, msg2), etc...] for all topics
     - To access specific message fields, do same as in ROS i.e. for odometry position: data['/odometry/observer'][time_index][1].pose.pose.position.x
