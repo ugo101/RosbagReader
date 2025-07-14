@@ -103,8 +103,8 @@ def convert_rosbag_to_csv(input_bag, output_folder):
 
 if __name__ == "__main__":
     # Batch conversion logic
-    ROSBAG_FOLDER = '/home/damenadmin/Projects/RosbagReader/Rosbags'
-    CSV_OUTPUT_ROOT = '/home/damenadmin/Projects/RosbagReader/Rosbags_csv'
+    ROSBAG_FOLDER = '/home/damenadmin/Projects/PoolTesting/Rosbags'
+    CSV_OUTPUT_ROOT = '/home/damenadmin/Projects/PoolTesting/Rosbags_csv'
 
     # Get all subdirectories in ROSBAG_FOLDER
     list_bag_paths = [
