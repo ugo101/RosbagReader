@@ -19,7 +19,7 @@ def read_rosbag_to_dict(bag_path):
     """
     reader = rosbag2_py.SequentialReader()
     reader.open(
-        rosbag2_py.StorageOptions(uri=bag_path, storage_id='mcap'),
+        rosbag2_py.StorageOptions(uri=bag_path, storage_id='sqlite3'),
         rosbag2_py.ConverterOptions(input_serialization_format='cdr', output_serialization_format='cdr'),
     )
 
